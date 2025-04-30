@@ -1,0 +1,12 @@
+{
+    "timestamp": "2025-04-29T23:16:11.921717",
+    "distribution": "poisson",
+    "eviction_policy": "allkeys-lfu",
+    "hits": 7338,
+    "misses": 42662,
+    "evictions": 14012,
+    "queries_realizadas": 50000,
+    "total_time_seconds": 120.11037421226501,
+    "avg_time_per_query_seconds": 0.0024022074842453005,
+    "used_memory_mb": "20.00"
+}

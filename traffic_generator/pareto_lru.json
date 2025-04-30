@@ -1,0 +1,12 @@
+{
+    "timestamp": "2025-04-29T23:15:56.303521",
+    "distribution": "pareto",
+    "eviction_policy": "allkeys-lru",
+    "hits": 7368,
+    "misses": 42632,
+    "evictions": 13992,
+    "queries_realizadas": 50000,
+    "total_time_seconds": 104.53417634963989,
+    "avg_time_per_query_seconds": 0.002090683526992798,
+    "used_memory_mb": "20.00"
+}

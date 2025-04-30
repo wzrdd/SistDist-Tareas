@@ -1,0 +1,11 @@
+{
+    "distribution": "poisson",
+    "eviction_policy": "allkeys-lfu",
+    "hits": 1472,
+    "misses": 13528,
+    "evictions": 5717,
+    "queries_realizadas": 15000,
+    "total_time_seconds": 1637.3562693595886,
+    "avg_time_per_query_seconds": 0.10915708462397257,
+    "used_memory_mb": "10.00"
+}

@@ -1,0 +1,11 @@
+{
+    "distribution": "pareto",
+    "eviction_policy": "allkeys-lfu",
+    "hits": 1431,
+    "misses": 13569,
+    "evictions": 5785,
+    "queries_realizadas": 15000,
+    "total_time_seconds": 1630.8146710395813,
+    "avg_time_per_query_seconds": 0.10872097806930542,
+    "used_memory_mb": "10.00"
+}

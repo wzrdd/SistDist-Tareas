@@ -17,82 +17,27 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=dumbuser
       - MONGO_INITDB_ROOT_PASSWORD=dumbpassword
 
-  redis_poisson_lru:
-    image: redis:latest
-    container_name: redis_poisson_lru
-    command: redis-server --maxmemory 10mb --maxmemory-policy allkeys-lru
-
-  redis_poisson_lfu:
-    image: redis:latest
-    container_name: redis_poisson_lfu
-    command: redis-server --maxmemory 20mb --maxmemory-policy allkeys-lfu
-
-  redis_pareto_lru:
-    image: redis:latest
-    container_name: redis_pareto_lru
-    command: redis-server --maxmemory 20mb --maxmemory-policy allkeys-lru
-
-  redis_pareto_lfu:
-    image: redis:latest
-    container_name: redis_pareto_lfu
-    command: redis-server --maxmemory 20mb --maxmemory-policy allkeys-lfu
-
-  traffic_generator_poisson_lru:
-    build: ./traffic_generator
-    container_name: traffic_generator_poisson_lru
+  data_filtering:
+    build: ./data_filtering
+    environment:
+      - MONGO_USER=dumbuser
+      - MONGO_PASS=dumbpassword
+      - MONGO_HOST=mongo
+      - MONGO_PORT=27017
+      - MONGO_DB=admin
+      - MONGO_COLLECTION=alerts
+      - OUTPUT_FILE=/data/clean/incidents_clean.csv
     depends_on:
       - mongo
-    environment:
-      - MONGO_URI=mongodb://dumbuser:dumbpassword@mongo:27017
-      - REDIS_URI=redis://redis_poisson_lru:6379
-      - DISTRIBUTION=poisson
-      - EVICTION_POLICY=allkeys-lru
     volumes:
-      - ./traffic_generator:/app
-    command: python traffic_generator.py
+      - ./data:/data
+      - ./data_filtering:/app
 
-  traffic_generator_poisson_lfu:
-    build: ./traffic_generator
-    container_name: traffic_generator_poisson_lfu
-    depends_on:
-      - mongo
-    environment:
-      - MONGO_URI=mongodb://dumbuser:dumbpassword@mongo:27017
-      - REDIS_URI=redis://redis_poisson_lfu:6379
-      - DISTRIBUTION=poisson
-      - EVICTION_POLICY=allkeys-lfu
+  data_processing:
+    build: ./data_processing
     volumes:
-      - ./traffic_generator:/app
-    command: python traffic_generator.py
-
-  traffic_generator_pareto_lru:
-    build: ./traffic_generator
-    container_name: traffic_generator_pareto_lru
-    depends_on:
-      - mongo
-    environment:
-      - MONGO_URI=mongodb://dumbuser:dumbpassword@mongo:27017
-      - REDIS_URI=redis://redis_pareto_lru:6379
-      - DISTRIBUTION=pareto
-      - EVICTION_POLICY=allkeys-lru
-    volumes:
-      - ./traffic_generator:/app
-    command: python traffic_generator.py
-
-  traffic_generator_pareto_lfu:
-    build: ./traffic_generator
-    container_name: traffic_generator_pareto_lfu
-    depends_on:
-      - mongo
-    environment:
-      - MONGO_URI=mongodb://dumbuser:dumbpassword@mongo:27017
-      - REDIS_URI=redis://redis_pareto_lfu:6379
-      - DISTRIBUTION=pareto
-      - EVICTION_POLICY=allkeys-lfu
-    volumes:
-      - ./traffic_generator:/app
-    command: python traffic_generator.py
+      - ./data:/data
+      - ./data_processor:/app
 
 volumes:
   mongo_data:
-  traffic_generator_data:

@@ -46,6 +46,7 @@ for coord in coordinates:
     for alert in alerts:
         alert_data = {
             "region_name": name,
+            "comuna": alert.get("city", "N/A"),
             "alert_id": alert.get("id", "N/A"),
             "report_by": alert.get("reportBy", "N/A"),
             "type": alert.get("type", "N/A"),
@@ -57,7 +58,7 @@ for coord in coordinates:
         alerts_collection.insert_one(alert_data)
         inserted_total += 1
 
-        if inserted_total % 1000 == 0:
+        if inserted_total % 100 == 0:
             print(f"[PROGRESS] Insertados {inserted_total} alertas...")
 
 print(f"[DONE] Insertados {inserted_total} alertas en total.")

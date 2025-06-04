@@ -37,7 +37,7 @@ services:
     build: ./data_processing
     volumes:
       - ./data:/data
-      - ./data_processor:/app
+      - ./data_processing:/app
 
 volumes:
   mongo_data:

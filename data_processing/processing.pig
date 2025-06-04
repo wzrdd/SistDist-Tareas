@@ -30,3 +30,10 @@ STORE count_by_both INTO '/data/output/incidents_by_type_and_comuna.csv' USING P
 -- Comunas con más incidentes
 ordered_comunas = ORDER count_by_comuna BY count DESC;
 STORE ordered_comunas INTO '/data/output/top_comunas.csv' USING PigStorage(',');
+
+-- Promedio reportRating por comuna
+grouped_by_comuna = GROUP alerts_clean BY comuna;
+avg_rating_by_comuna = FOREACH grouped_by_comuna GENERATE
+    group AS comuna,
+    AVG(alerts_clean.report_rating) AS promedio_rating;
+STORE avg_rating_by_comuna INTO '/data/output/promedio_rating_por_comuna.csv' USING PigStorage(',');

@@ -6,5 +6,6 @@ run-filtering:
 	docker compose up -d data_filtering
 
 run-processing:
+	rm -rf ./data/output/*
 	docker compose down
 	docker compose up -d data_processing

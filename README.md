@@ -1,11 +1,14 @@
 # Requisitos
 - Docker
+- Make
 
 # Ejecución
 
-Cada ejecución corre todo el sistema, basta con:
+La ejecución se divide en 3 pasos discretos: 1) Scrapping, 2) Filtering y 3) Processing. Para esto se creó un makefile con estos 3 comandos en el siguiente orden:
 ```bash
-docker compose up
+make start-scrapping
+make run-filtering
+make run-processing
 ```
 
-Para parametrizar, los contenedores de traffic_generator y Redis se manejan con variables de entorno en el docker-compose.yaml. Las opciones son DISTRIBUTION={poission, pareto} y EVICTION_POLICY={LRU, LFU}
+La idea para tener 3 comandos es que el filtro empiece después de terminado el scrapping. 

@@ -22,7 +22,6 @@ def clean_and_standardize(mongo_uri, db_name, collection_name, output_path):
 
     df["comuna"] = df["comuna"]
 
-
     df["descripcion"] = "Alerta de tipo " + df["type"] + " reportada por " + df["report_by"]
 
     output_columns = ["type", "comuna", "descripcion", "report_rating", "location_x", "location_y"]

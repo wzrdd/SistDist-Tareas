@@ -3,12 +3,9 @@
 - Make
 
 # Ejecución
+El pipeline lo dividí en dos pasos: 1) prepare-all que scrappea, almacena y procesa con PIG, 2) run-visualization que levanta ES + Kibana y corre un contenedor que toma la salida del procesamiento con PIG y lo sube a ES. El servicio de Kibana queda disponible en http://localhost:5601/ por defecto en el docker-compose (hardcodeado).
 
-La ejecución se divide en 3 pasos discretos: 1) Scrapping, 2) Filtering y 3) Processing. Para esto se creó un makefile con estos 3 comandos en el siguiente orden:
 ```bash
-make start-scrapping
-make run-filtering
-make run-processing
+make prepare-all
+make run-visualization
 ```
-
-La idea para tener 3 comandos es que el filtro empiece después de terminado el scrapping. 

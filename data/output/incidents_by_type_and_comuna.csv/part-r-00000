@@ -1,136 +1,176 @@
-JAM,N/A,72
-JAM,Macul,4
-JAM,Renca,6
-JAM,Maipú,8
-JAM,Ñuñoa,14
-JAM,La Reina,24
-JAM,Lo Prado,3
-JAM,Pudahuel,8
-JAM,Recoleta,2
-JAM,Santiago,17
-JAM,Vitacura,2
-JAM,Cerrillos,5
-JAM,Conchalí,2
-JAM,El Bosque,1
-JAM,La Granja,1
-JAM,Quilicura,36
-JAM,Huechuraba,1
-JAM,La Florida,18
-JAM,La Pintana,1
-JAM,Las Condes,31
-JAM,San Miguel,1
-JAM,Cerro Navia,2
-JAM,Peñalolén,21
-JAM,Providencia,39
-JAM,Puente Alto,8
+JAM,N/A,116
+JAM,Macul,25
+JAM,Renca,8
+JAM,Maipú,23
+JAM,Pirque,3
+JAM,Ñuñoa,37
+JAM,"Malloco,1
+JAM,La Reina,35
+JAM,Lo Prado,7
+JAM,Pudahuel,12
+JAM,Recoleta,4
+JAM,Santiago,55
+JAM,Vitacura,6
+JAM,Cerrillos,6
+JAM,Conchalí,6
+JAM,El Bosque,2
+JAM,La Granja,2
+JAM,Lo Espejo,4
+JAM,Quilicura,47
+JAM,Huechuraba,8
+JAM,La Florida,35
+JAM,La Pintana,3
+JAM,Las Condes,68
+JAM,San Miguel,7
+JAM,San Ramón,2
+JAM,Cerro Navia,3
+JAM,La Cisterna,2
+JAM,Peñalolén,38
+JAM,Providencia,74
+JAM,Puente Alto,25
 JAM,Lo Barnechea,2
-JAM,San Bernardo,3
-JAM,San Joaquín,1
-JAM,Independencia,1
-JAM,Quinta Normal,3
-JAM,Estación Central,16
-JAM,Pedro Aguirre Cerda,2
-HAZARD,N/A,34
-HAZARD,Macul,3
-HAZARD,Renca,12
-HAZARD,Maipú,54
-HAZARD,Pirque,2
-HAZARD,Ñuñoa,3
-HAZARD,Lo Prado,2
+JAM,San Bernardo,9
+JAM,San Joaquín,4
+JAM,Independencia,5
+JAM,Padre Hurtado,1
+JAM,Quinta Normal,9
+JAM,Estación Central,37
+JAM,Pedro Aguirre Cerda,5
+HAZARD,N/A,79
+HAZARD,Macul,5
+HAZARD,Renca,19
+HAZARD,Maipú,99
+HAZARD,Pirque,3
+HAZARD,Ñuñoa,25
+HAZARD,La Reina,3
+HAZARD,Lo Prado,5
 HAZARD,Peralito,1
-HAZARD,Pudahuel,15
-HAZARD,Recoleta,1
-HAZARD,Santiago,45
-HAZARD,Vitacura,1
-HAZARD,Cerrillos,5
-HAZARD,Conchalí,2
-HAZARD,El Bosque,5
+HAZARD,Pudahuel,26
+HAZARD,Recoleta,6
+HAZARD,Santiago,79
+HAZARD,Vitacura,10
+HAZARD,Cerrillos,9
+HAZARD,Conchalí,6
+HAZARD,El Bosque,9
+HAZARD,La Granja,3
 HAZARD,Lo Espejo,4
-HAZARD,Quilicura,4
-HAZARD,Huechuraba,4
-HAZARD,La Florida,9
-HAZARD,La Pintana,5
-HAZARD,Las Condes,10
-HAZARD,San Miguel,4
-HAZARD,San Ramón,1
-HAZARD,Cerro Navia,3
-HAZARD,La Cisterna,3
-HAZARD,Peñalolén,26
-HAZARD,Providencia,7
-HAZARD,Puente Alto,10
-HAZARD,San Bernardo,12
-HAZARD,San Joaquín,7
-HAZARD,Independencia,7
-HAZARD,Quinta Normal,6
-HAZARD,Calera de Tango,1
-HAZARD,Estación Central,7
-HAZARD,Pedro Aguirre Cerda,9
-HAZARD,Santa Rosa de Chena,1
-POLICE,N/A,6
-POLICE,Maipú,4
-POLICE,Ñuñoa,4
-POLICE,La Reina,1
-POLICE,Lo Prado,1
-POLICE,Pudahuel,4
-POLICE,Recoleta,2
-POLICE,Santiago,20
+HAZARD,Peñaflor,1
+HAZARD,Quilicura,13
+HAZARD,Huechuraba,8
+HAZARD,La Florida,26
+HAZARD,La Pintana,13
+HAZARD,Las Condes,32
+HAZARD,San Miguel,10
+HAZARD,San Ramón,2
+HAZARD,Cerro Navia,10
+HAZARD,La Cisterna,8
+HAZARD,Peñalolén,62
+HAZARD,Providencia,24
+HAZARD,Puente Alto,30
+HAZARD,San Bernardo,25
+HAZARD,San Joaquín,9
+HAZARD,Independencia,11
+HAZARD,Padre Hurtado,3
+HAZARD,Quinta Normal,16
+HAZARD,"Las Vizcachas,1
+HAZARD,Calera de Tango,6
+HAZARD,Estación Central,25
+HAZARD,Pedro Aguirre Cerda,10
+HAZARD,Santa Rosa de Chena,2
+POLICE,N/A,9
+POLICE,Macul,1
+POLICE,Renca,1
+POLICE,Maipú,7
+POLICE,Ñuñoa,14
+POLICE,La Reina,2
+POLICE,Lo Prado,8
+POLICE,Pudahuel,16
+POLICE,Recoleta,3
+POLICE,Santiago,49
+POLICE,Vitacura,2
 POLICE,Cerrillos,2
-POLICE,Conchalí,1
-POLICE,Lo Espejo,1
-POLICE,Quilicura,1
-POLICE,La Florida,9
+POLICE,Conchalí,4
+POLICE,El Bosque,4
+POLICE,La Granja,1
+POLICE,Lo Espejo,2
+POLICE,Quilicura,7
+POLICE,Huechuraba,2
+POLICE,La Florida,10
 POLICE,La Pintana,2
-POLICE,Las Condes,7
-POLICE,San Miguel,3
+POLICE,Las Condes,15
+POLICE,San Miguel,4
 POLICE,La Cisterna,1
-POLICE,Peñalolén,6
-POLICE,Providencia,5
-POLICE,Puente Alto,3
-POLICE,San Joaquín,1
-POLICE,Independencia,2
+POLICE,Peñalolén,7
+POLICE,Providencia,9
+POLICE,Puente Alto,4
+POLICE,Lo Barnechea,1
+POLICE,San Bernardo,5
+POLICE,San Joaquín,3
+POLICE,Independencia,3
 POLICE,Padre Hurtado,1
-POLICE,Estación Central,3
+POLICE,Quinta Normal,3
+POLICE,Estación Central,16
 POLICE,Pedro Aguirre Cerda,3
 POLICE,Rinconada de Maipú,1
-ACCIDENT,N/A,6
+ACCIDENT,N/A,12
 ACCIDENT,Renca,1
 ACCIDENT,Maipú,2
-ACCIDENT,Santiago,1
-ACCIDENT,Cerrillos,1
+ACCIDENT,"Malloco,1
+ACCIDENT,La Reina,1
+ACCIDENT,Lo Prado,1
+ACCIDENT,Pudahuel,1
+ACCIDENT,Santiago,6
+ACCIDENT,Vitacura,1
+ACCIDENT,Cerrillos,2
 ACCIDENT,Quilicura,2
 ACCIDENT,La Florida,1
+ACCIDENT,Las Condes,1
 ACCIDENT,Peñalolén,1
 ACCIDENT,Providencia,1
-ACCIDENT,Puente Alto,2
+ACCIDENT,Puente Alto,3
+ACCIDENT,Quinta Normal,1
 ACCIDENT,Calera de Tango,2
 CHIT_CHAT,N/A,8
-CHIT_CHAT,Macul,2
-CHIT_CHAT,Ñuñoa,1
-CHIT_CHAT,Santiago,14
+CHIT_CHAT,Macul,3
+CHIT_CHAT,Ñuñoa,2
+CHIT_CHAT,Pudahuel,3
+CHIT_CHAT,Santiago,27
 CHIT_CHAT,Cerrillos,1
-CHIT_CHAT,Quilicura,1
+CHIT_CHAT,Conchalí,1
+CHIT_CHAT,El Bosque,1
+CHIT_CHAT,La Granja,1
+CHIT_CHAT,Quilicura,3
 CHIT_CHAT,La Florida,1
-CHIT_CHAT,Las Condes,2
-CHIT_CHAT,San Miguel,1
+CHIT_CHAT,Las Condes,10
+CHIT_CHAT,San Miguel,2
 CHIT_CHAT,La Cisterna,1
 CHIT_CHAT,Peñalolén,3
-CHIT_CHAT,Providencia,3
-CHIT_CHAT,Quinta Normal,2
-CHIT_CHAT,Estación Central,5
+CHIT_CHAT,Providencia,5
+CHIT_CHAT,Puente Alto,2
+CHIT_CHAT,San Joaquín,1
+CHIT_CHAT,Independencia,1
+CHIT_CHAT,Quinta Normal,3
+CHIT_CHAT,Estación Central,11
 CHIT_CHAT,Pedro Aguirre Cerda,1
-ROAD_CLOSED,N/A,14
+ROAD_CLOSED,N/A,19
 ROAD_CLOSED,Renca,3
-ROAD_CLOSED,Maipú,44
-ROAD_CLOSED,Ñuñoa,3
+ROAD_CLOSED,Maipú,46
+ROAD_CLOSED,Ñuñoa,8
 ROAD_CLOSED,"Malloco,22
+ROAD_CLOSED,Lo Prado,1
 ROAD_CLOSED,Pudahuel,17
-ROAD_CLOSED,Santiago,1
-ROAD_CLOSED,Conchalí,31
-ROAD_CLOSED,La Florida,1
+ROAD_CLOSED,Santiago,3
+ROAD_CLOSED,Vitacura,1
+ROAD_CLOSED,Conchalí,32
+ROAD_CLOSED,El Bosque,1
+ROAD_CLOSED,La Florida,5
+ROAD_CLOSED,San Ramón,10
 ROAD_CLOSED,Cerro Navia,8
 ROAD_CLOSED,La Cisterna,4
-ROAD_CLOSED,Peñalolén,14
+ROAD_CLOSED,Peñalolén,16
 ROAD_CLOSED,Providencia,6
+ROAD_CLOSED,Puente Alto,4
 ROAD_CLOSED,San Bernardo,1
-ROAD_CLOSED,Quinta Normal,2
-ROAD_CLOSED,Estación Central,4
+ROAD_CLOSED,San Joaquín,1
+ROAD_CLOSED,Quinta Normal,8
+ROAD_CLOSED,Estación Central,5
